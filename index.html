@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio de Jesus Verona</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="img/pesa.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('experiencia-academica')">Experiencia Académica</a></li>
+                <li><a href="#" onclick="showSection('experiencia-laboral')">Experiencia Laboral</a></li>
+                <li><a href="#" onclick="showSection('acerca-de-mi')">Acerca de Mí</a></li>
+                <li><a href="#" onclick="showSection('contacto')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="home">
+            <h1><i class="fas fa-globe"></i> Bienvenido a Mi Página Web</h1>
+            <p class="body">
+                ¡Hola! Llamo Jesus Antonio Verona Medina, un gusto saludate. Este es mi espacio personal en la web donde comparto detalles sobre mi trayectoria académica y profesional.
+            </p>
+            <p>
+                Aquí podrás encontrar información sobre mi formación educativa, mi experiencia laboral, y cómo ponerte en contacto conmigo.
+            </p>
+            <p>
+                Navega a través de las secciones para conocer más sobre mis logros, habilidades o contactarme. Espero que encuentres esta información útil y podamos interactuar.
+            </p>
+            <p>
+                ¡Gracias por visitar!
+            </p>
+            <div class="image-container">
+                <img src="" alt="" class="animated-image">
+            </div>  
+        </section>
+
+        <section id="experiencia-academica" class="hidden">
+            <h2><i class="fa-solid fa-school"></i> Experiencia Académica</h2>
+            <div class="contenedor-academico">
+                <div class="item">
+                    <h3>Escuela Secundaria Técnica #103 "Simon Ramirez Rodriguez"</h3>
+                    <img src="https://imgs.search.brave.com/qLk3VrUOBrDMFqHqCK6eipZ2EeiEmcgJGyfdQZeSnyU/rs:fit:860:0:0:0/g:ce/aHR0cDovL3N0YXRp/Yy53aXhzdGF0aWMu/Y29tL21lZGlhLzA0/MjgyY19iYjA1MGE0/YThhYjFjMGY3MmM5/OWMwZjlmMDkyOTEz/MS5qcGcvdjEvZmls/bC93XzYxOSxoXzM0/MCxhbF9jLHFfODAs/dXNtXzAuNjZfMS4w/MF8wLjAxLzA0Mjgy/Y19iYjA1MGE0YThh/YjFjMGY3MmM5OWMw/ZjlmMDkyOTEzMS53/ZWJw" alt="" class="animated-image">
+                    <p><strong>Taller:</strong>Computacion</p>
+                    <p><strong>Fecha:</strong> 2013 - 2016</p>
+                    <p><strong>Asignaturas Clave:</strong> TICS</p>
+                    <p><strong>Logro Destacado:</strong> Ninguno.</p>
+                </div>
+
+                <div class="item">
+                    <h3>Escuela Preparatoria Oficial Anexa a la Normal de Atizapan</h3>
+                    <img src="https://imgs.search.brave.com/WihqGG03QUz8wK1dM9qGND7X8ZT3ReLNRYEuL4jaYDU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mYXN0/bHkuNHNxaS5uZXQv/aW1nL2dlbmVyYWwv/MjAweDIwMC83NzQ3/OTEyMV9haHFzQ01C/TWJVRXVqd0FZUUVi/NEV4R0czOXVsSnNO/U0NVdFNJWWlZSEc0/LmpwZw" alt="" class="animated-image">
+                    <p><strong>Fecha:</strong> 2016 - 2019</p>
+                    <p><strong>Asignaturas Clave:</strong> Programación en C++, Desarrollo Web</p>
+                    <p><strong>Logro Destacado:</strong>Ninguno.</p>
+                </div>
+                
+                <div class="item">
+                    <h3>Universidad Autonóma del Estado de México Centro Universitario Valle de México</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHwQJJDhE6_jAhIFEsYWJPUawh2CGH-pN6Gw&s" alt="" class="animated-image">
+                    <p><strong>Carrera:</strong> Licenciatura en Ingenería en Computación</p>
+                    <p><strong>Fecha:</strong> 2019 - Presente</p>
+                    <p><strong>Asignaturas Clave:</strong>Paradigmas de Programación, Arquitecutura
+                    de Computadoras, Ingenieria de Software.</p>
+                    <p><strong>Logro Destacado:</strong> Ninguno</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia-laboral" class="hidden">
+            <h2><i class="fa-solid fa-briefcase"></i> Experiencia Laboral</h2>
+            <div class="contenedor-laboral">
+                <div class="item">
+                    <h3>Sin Experiencia</h3>
+                    <img src="" alt="" class="animated-image">
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="acerca-de-mi" class="hidden">
+            <h2><i class="fa-solid fa-circle-user"></i> Acerca de Mí</h2>
+            <p>¡Hola! Mi nombre es Jesus Antonio Verona Medina y soy un apasionado de la tecnología y el desarrollo de software. Desde una edad temprana, siempre he estado fascinado por la tecnología. Esto me llevó a estudiar Ingeniería en Computación, donde profundicé en áreas como programación, bases de datos y redes.</p>
+            <p>Mi relación con la programación comenzó de forma concisa en la preparatoria, donde descubrí mi interés por resolver problemas y crear soluciones a través del código. A lo largo de mi trayectoria académica, he ampliado mis conocimientos en diversas tecnologías, y he tenido la oportunidad de participar en proyectos que me han permitido aplicar lo aprendido en situaciones reales.</p>
+            <hr>
+            <h2><i class="fa-solid fa-gamepad"></i> Intereses</h2>
+            <p>Me encantan los perros, me gusta pasar tiempo recreativo con mis amistades mas cercanas y pasar tiempo de calidad con la familia.
+               Pero lo que mas me apasiona es escuchar música mientras hago alguna actividad, como lo es el estudio o el jugar videojuegos mobiles.</p>
+            <hr>
+            <h2><i class="fa-solid fa-medal"></i> Metas Profesionales</h2>
+            <p>En cuanto a mis objetivos profesionales, aspiro a trabajar en una empresa potenciadora del desarrollo de software (Google, Amazon, etc.) me gustaría contribuir en un proyecto grande desarrollado de la mano con estas empresas lideres. 
+                Mi meta a largo plazo es contribuir a proyectos que no solo mejoren la eficiencia tecnológica, sino que también tengan un impacto positivo en la sociedad y ser un lider en todo ambito.</p>
+            <p>
+        Espero que esta pagina sea una plataforma para compartir mis experiencias, conocimientos y proyectos, y quizás también conectar con otros profesionales apasionados por la tecnología.</p>    
+        </section>
+
+        <section id="contacto" class="hidden">
+            <h2><i class="fa-solid fa-phone"></i> Contacto</h2>
+            <p>Encuéntrame en las redes sociales:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/JesusAVM12"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                <li><a href="https://github.com/JesusVerona"><i class="fab fa-github"></i> Github</a></li>
+                <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>            
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Mi Página Web Jesus Verona ©</p>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/JesusAVM12" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://github.com/JesusVerona" target="_blank" title="Github"><i class="fab fa-github"></i></a></li>
+                <li><a href="" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-weight: bold;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contenedor-academico, .contenedor-laboral {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los items se ajusten a la siguiente línea si no hay suficiente espacio */
+    justify-content: space-between; /* Alinea los elementos con espacio entre ellos */
+    gap: 20px; /* Espacio entre los elementos */
+    max-width: 100%;
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.item {
+        background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: calc(33.333% - 20px); /* Ajusta el ancho de cada item, restando el espacio del gap */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+.item img {
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+@media (max-width: 768px) {
+    .item {
+        width: 100%;
+    }
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.animated-image {    
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+.animated-image:hover {
+    transform: scale(1.1); /* Amplía la imagen al pasar el ratón */
+    opacity: 0.8; /* Reduce ligeramente la opacidad */
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px; /* Ajusta el margen según sea necesario */
+}
+
+ul li a {
+    text-decoration: none;  /* Quita el subrayado */
+    color: #333;  
+    font-size: 18px;  
+    font-weight: bold;  
+    display: flex;  
+    align-items: center;  
+    margin-bottom: 10px;  
+    transition: color 0.3s ease;  
+}
+
+ul li a i {
+    margin-right: 8px;  /* Añade espacio entre el ícono y el texto */
+    color: #555;  /* Cambia el color del ícono */
+    transition: color 0.3s ease;  /* Añade una transición suave al color */
+}
+
+ul li a:hover {
+    color: #007bff;  /* Cambia el color del texto al pasar el ratón */
+}
+
+ul li a:hover i {
+    color: #007bff;  /* Cambia el color del ícono al pasar el ratón */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.social-icons i {
+    vertical-align: middle;
+}
